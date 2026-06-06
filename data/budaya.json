@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nama": "Wayang Kulit",
+    "kategori": "Seni Pertunjukan",
+    "deskripsi": "Seni pertunjukan bayangan boneka dari kulit yang merupakan warisan budaya dunia UNESCO. Dalang Solo terkenal dengan gaya Surakarta yang halus dan sarat filosofi.",
+    "tempat": "Keraton Kasunanan, Pura Mangkunegaran, RRI Surakarta",
+    "jadwal": "Malam Senin (Keraton), acara hajatan, dan festival budaya",
+    "foto": "",
+    "artikel": "Wayang kulit gaya Surakarta memiliki ciri khas pada tatahan (ukiran) yang lebih halus dan gerak yang lebih lembut dibandingkan gaya Yogyakarta. Setiap lakon (cerita) mengandung pesan moral dan filosofi Jawa yang dalam."
+  },
+  {
+    "id": 2,
+    "nama": "Batik Solo",
+    "kategori": "Kerajinan",
+    "deskripsi": "Solo adalah pusat batik Jawa dengan motif-motif klasik Keraton seperti Parang, Sidomukti, dan Truntum. Kampung Batik Laweyan dan Kauman adalah pusat produksinya.",
+    "tempat": "Kampung Batik Laweyan, Kampung Batik Kauman",
+    "jadwal": "Setiap hari, workshop tersedia",
+    "foto": "",
+    "artikel": "Motif batik Solo memiliki makna filosofis mendalam. Motif Sidomukti misalnya, melambangkan harapan kemakmuran dan kebahagiaan. Batik tulis Solo menggunakan canting dan malam (lilin) dalam proses pembuatannya yang bisa memakan waktu berbulan-bulan."
+  },
+  {
+    "id": 3,
+    "nama": "Tari Bedhaya Ketawang",
+    "kategori": "Seni Tari",
+    "deskripsi": "Tari sakral Keraton Kasunanan yang hanya dipentaskan setahun sekali pada peringatan Tinggalan Dalem (ulang tahun penobatan raja). Terdiri dari 9 penari putri.",
+    "tempat": "Keraton Kasunanan Surakarta",
+    "jadwal": "Setahun sekali (Tinggalan Dalem)",
+    "foto": "",
+    "artikel": "Bedhaya Ketawang dianggap sebagai tari paling suci di Keraton Surakarta. Konon tari ini adalah hasil pertemuan antara Sultan Agung dengan Kanjeng Ratu Kidul (Ratu Laut Selatan). Para penari harus menjalani puasa dan ritual sebelum pertunjukan."
+  },
+  {
+    "id": 4,
+    "nama": "Sekaten",
+    "kategori": "Upacara Adat",
+    "deskripsi": "Festival tahunan menyambut Maulid Nabi Muhammad SAW. Gamelan pusaka Keraton dibunyikan selama sepekan di Masjid Agung. Ditutup dengan Grebeg Maulud.",
+    "tempat": "Alun-alun Utara, Masjid Agung Surakarta",
+    "jadwal": "Bulan Maulud (kalender Jawa), sekitar Oktober-November",
+    "foto": "",
+    "artikel": "Sekaten berasal dari kata Syahadatain (dua kalimat syahadat). Pasar malam Sekaten yang meriah menjadi tradisi hiburan rakyat turun-temurun. Gunungan (tumpeng raksasa) dari hasil bumi diperebutkan warga sebagai berkah."
+  },
+  {
+    "id": 5,
+    "nama": "Kirab Pusaka Malam 1 Suro",
+    "kategori": "Upacara Adat",
+    "deskripsi": "Tradisi membawa pusaka Keraton mengelilingi kota secara hening di malam 1 Suro (Tahun Baru Jawa). Arak-arakan kerbau albino (Kebo Bule) yang keramat.",
+    "tempat": "Berangkat dari Keraton Kasunanan",
+    "jadwal": "Malam 1 Suro (awal tahun Jawa)",
+    "foto": "",
+    "artikel": "Ribuan orang dari berbagai daerah hadir untuk menyaksikan dan memperoleh berkah dari kirab ini. Kebo Bule (kerbau albino) dianggap keramat dan dipercaya sebagai penjelmaan Kyai Slamet, kerbau kesayangan Paku Buwono II."
+  },
+  {
+    "id": 6,
+    "nama": "Gamelan Jawa",
+    "kategori": "Seni Musik",
+    "deskripsi": "Orkestra tradisional Jawa yang terdiri dari instrumen perkusi perunggu. Gaya Surakarta dikenal dengan nuansa lembut dan meditatif. UNESCO menetapkannya sebagai warisan dunia.",
+    "tempat": "Keraton, ISI Surakarta, sanggar gamelan seluruh kota",
+    "jadwal": "Latihan rutin di ISI Surakarta, pertunjukan di Keraton",
+    "foto": "",
+    "artikel": "Gamelan gaya Surakarta memiliki perbedaan dengan Yogyakarta dalam hal laras (tangga nada), tempo, dan ornamentasi. ISI Surakarta (Institut Seni Indonesia) adalah perguruan tinggi seni terkemuka yang menjaga kelestarian gamelan."
+  }
+]

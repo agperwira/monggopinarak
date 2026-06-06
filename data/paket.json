@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nama": "Paket 1 Hari — Jelajah Keraton",
+    "durasi": "1 Hari",
+    "tema": "Budaya & Sejarah",
+    "budget_estimasi": "Rp 150.000 - 200.000",
+    "deskripsi": "Paket singkat namun berisi. Fokus pada warisan kerajaan dan kuliner legendaris Solo dalam satu hari penuh.",
+    "foto": "",
+    "itinerary": [
+      {"waktu": "07.00", "aktivitas": "Sarapan Nasi Liwet Bu Wongso Lemu di Keprabon"},
+      {"waktu": "09.00", "aktivitas": "Kunjungi Pura Mangkunegaran (saksikan latihan tari setiap Rabu)"},
+      {"waktu": "11.00", "aktivitas": "Jalan kaki ke Pasar Triwindu — berburu barang antik"},
+      {"waktu": "12.30", "aktivitas": "Makan siang Timlo Solo di warung sekitar Keprabon"},
+      {"waktu": "14.00", "aktivitas": "Kunjungi Keraton Kasunanan Surakarta"},
+      {"waktu": "16.00", "aktivitas": "Belanja batik di Pasar Klewer"},
+      {"waktu": "18.00", "aktivitas": "Wedang Ronde di Gladak sambil menikmati senja"},
+      {"waktu": "19.30", "aktivitas": "Makan malam Sate Buntel Pak Manto"},
+      {"waktu": "21.00", "aktivitas": "Selesai"}
+    ]
+  },
+  {
+    "id": 2,
+    "nama": "Paket 2 Hari — Solo Lengkap",
+    "durasi": "2 Hari",
+    "tema": "Komprehensif",
+    "budget_estimasi": "Rp 350.000 - 500.000",
+    "deskripsi": "Menjelajahi Solo secara menyeluruh — dari sejarah, kuliner, belanja, hingga pengalaman budaya yang mendalam.",
+    "foto": "",
+    "itinerary": [
+      {"waktu": "HARI 1 — 07.00", "aktivitas": "Sarapan Serabi Notosuman sambil beli oleh-oleh"},
+      {"waktu": "08.30", "aktivitas": "Museum Batik Danar Hadi + workshop batik"},
+      {"waktu": "12.00", "aktivitas": "Makan siang Selat Solo Mbak Lies"},
+      {"waktu": "13.30", "aktivitas": "Eksplorasi Kampung Batik Laweyan"},
+      {"waktu": "16.00", "aktivitas": "Kafe sore di Omah Sinten Heritage Cafe"},
+      {"waktu": "18.30", "aktivitas": "Makan malam Gudeg Ceker Bu Sri Lestari"},
+      {"waktu": "HARI 2 — 07.00", "aktivitas": "Sarapan Timlo di Pasar Gede"},
+      {"waktu": "09.00", "aktivitas": "Pura Mangkunegaran"},
+      {"waktu": "11.00", "aktivitas": "Keraton Kasunanan Surakarta"},
+      {"waktu": "13.00", "aktivitas": "Makan siang Tengkleng Bu Ediyem (Pasar Klewer)"},
+      {"waktu": "14.30", "aktivitas": "Belanja oleh-oleh: Pasar Klewer + Pasar Triwindu"},
+      {"waktu": "17.00", "aktivitas": "Taman Balekambang untuk bersantai"},
+      {"waktu": "19.00", "aktivitas": "Makan malam bebas, selesai"}
+    ]
+  },
+  {
+    "id": 3,
+    "nama": "Paket 3 Hari — Solo Explorer",
+    "durasi": "3 Hari",
+    "tema": "Deep Dive",
+    "budget_estimasi": "Rp 600.000 - 900.000",
+    "deskripsi": "Pengalaman Solo yang paling lengkap. Termasuk kunjungan ke sekitar Solo, pengalaman membatik, dan menyaksikan pertunjukan seni.",
+    "foto": "",
+    "itinerary": [
+      {"waktu": "HARI 1 — 07.00", "aktivitas": "Sarapan Nasi Liwet tradisional"},
+      {"waktu": "09.00", "aktivitas": "Keraton Kasunanan — tur lengkap dengan pemandu"},
+      {"waktu": "12.00", "aktivitas": "Makan siang Sate Buntel"},
+      {"waktu": "14.00", "aktivitas": "Pura Mangkunegaran"},
+      {"waktu": "17.00", "aktivitas": "Eksplorasi Alun-alun dan sekitarnya"},
+      {"waktu": "19.30", "aktivitas": "Nonton pertunjukan wayang (jika ada jadwal)"},
+      {"waktu": "HARI 2 — 07.30", "aktivitas": "Sarapan Gudeg Ceker + Serabi"},
+      {"waktu": "09.00", "aktivitas": "Workshop membatik di Kampung Batik Laweyan"},
+      {"waktu": "13.00", "aktivitas": "Makan siang Selat Solo"},
+      {"waktu": "15.00", "aktivitas": "Museum Batik Danar Hadi"},
+      {"waktu": "17.00", "aktivitas": "Kafe heritage sore hari"},
+      {"waktu": "19.00", "aktivitas": "Makan malam Tengkleng"},
+      {"waktu": "HARI 3 — 07.00", "aktivitas": "Subuh ke Pasar Gede — nikmati suasana pasar tradisional"},
+      {"waktu": "09.00", "aktivitas": "Taman Balekambang"},
+      {"waktu": "11.00", "aktivitas": "Belanja oleh-oleh lengkap"},
+      {"waktu": "13.00", "aktivitas": "Makan siang terakhir di Solo"},
+      {"waktu": "15.00", "aktivitas": "Pulang dengan kenangan indah dari Solo"}
+    ]
+  }
+]

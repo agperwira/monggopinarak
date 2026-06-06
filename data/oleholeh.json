@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nama": "Batik Solo",
+    "kategori": "Kerajinan",
+    "deskripsi": "Oleh-oleh paling ikonik dari Solo. Pilihan dari batik cap, batik printing, hingga batik tulis premium. Motif klasik Keraton atau motif modern kontemporer.",
+    "harga_rata": "Rp 50.000 - 5.000.000",
+    "toko_rekomendasi": "Batik Keris, Batik Danarhadi, Pasar Klewer, Kampung Batik Laweyan",
+    "foto": "",
+    "tips": "Bedakan batik tulis (mahal, motif tidak simetris sempurna) vs batik cap (lebih terjangkau, motif lebih seragam)."
+  },
+  {
+    "id": 2,
+    "nama": "Abon Sapi",
+    "kategori": "Makanan",
+    "deskripsi": "Abon daging sapi khas Solo dengan tekstur serat halus dan rasa gurih-manis yang khas. Tahan lama, cocok sebagai oleh-oleh.",
+    "harga_rata": "Rp 30.000 - 80.000",
+    "toko_rekomendasi": "Abon Solo Pak Yanto, Abon Varia, Toko Oleh-oleh Gendingan",
+    "foto": "",
+    "tips": "Pilih abon dengan kemasan vakum untuk ketahanan lebih lama."
+  },
+  {
+    "id": 3,
+    "nama": "Intip",
+    "kategori": "Makanan",
+    "deskripsi": "Kerak nasi berbentuk lingkaran yang digoreng hingga renyah. Camilan tradisional Solo yang gurih, tersedia dengan taburan gula merah atau rasa original.",
+    "harga_rata": "Rp 10.000 - 25.000",
+    "toko_rekomendasi": "Intip Cap Kunci, Pasar Gede, toko oleh-oleh Jl. Slamet Riyadi",
+    "foto": "",
+    "tips": "Beli yang masih segar untuk tekstur terbaik."
+  },
+  {
+    "id": 4,
+    "nama": "Keris Solo",
+    "kategori": "Kerajinan",
+    "deskripsi": "Keris adalah warisan budaya UNESCO. Solo terkenal sebagai pusat pembuatan keris berkualitas. Dari keris fungsional hingga keris koleksi artistik.",
+    "harga_rata": "Rp 200.000 - Jutaan rupiah",
+    "toko_rekomendasi": "Pasar Triwindu, empu keris di Mojosongo",
+    "foto": "",
+    "tips": "Tanyakan sertifikat keaslian untuk keris antik bersejarah."
+  },
+  {
+    "id": 5,
+    "nama": "Serabi Notosuman",
+    "kategori": "Makanan",
+    "deskripsi": "Serabi khas Solo yang terkenal sejak 1923. Dibungkus daun pisang, tahan 1-2 hari. Oleh-oleh wajib dari Solo.",
+    "harga_rata": "Rp 3.000 - 5.000 per buah",
+    "toko_rekomendasi": "Serabi Notosuman (Jl. Moh. Yamin No.41)",
+    "foto": "",
+    "tips": "Beli di hari keberangkatan agar tetap segar saat sampai tujuan."
+  },
+  {
+    "id": 6,
+    "nama": "Wayang Kulit Miniatur",
+    "kategori": "Kerajinan",
+    "deskripsi": "Souvenir wayang kulit miniatur yang indah sebagai hiasan. Dibuat dari kulit sapi dengan tatahan (ukiran) tradisional. Tersedia berbagai karakter pewayangan.",
+    "harga_rata": "Rp 50.000 - 500.000",
+    "toko_rekomendasi": "Pasar Triwindu, toko souvenir Jl. Slamet Riyadi",
+    "foto": "",
+    "tips": "Karakter Semar dan Punakawan adalah yang paling populer."
+  },
+  {
+    "nama": "Kerupuk Karak",
+    "kategori": "Makanan",
+    "deskripsi": "Kerupuk yang dibuat dari beras yang di giling dan di keringkan. Rasanya renyah dan gurih. solo banget guys",
+    "harga_rata": "20000",
+    "toko_rekomendasi": "Shopee Sarikarak.id, Toko oleh oleh cokro",
+    "tips": "Pastikan pakai buble wrap biar aman agar tidak pecah",
+    "foto": "assets/uploads/oleholeh/Gemini_Generated_Image_3rkohs3rkohs3rko.png",
+    "id": 7
+  }
+]

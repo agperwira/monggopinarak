@@ -1,0 +1,57 @@
+[
+  {
+    "nama": "Nasi Liwet",
+    "kategori": "Makanan Utama",
+    "waktu": "Sarapan",
+    "deskripsi": "Nasi gurih dipadukan dengan ayam atau telur",
+    "harga_rata": "Rp 15.000 - 25.000",
+    "lokasi_terbaik": "Nasi Liwet Bu Wongso Lemu (Keprabon), Nasi Liwet Mbak Yanti",
+    "rating": 4.5,
+    "foto": "assets/uploads/kuliner/nasi liwet.jpg",
+    "id": 1
+  },
+  {
+    "nama": "Sate Buntel dan tengkleng",
+    "kategori": "Makanan Utama",
+    "waktu": "Makan Siang",
+    "deskripsi": "Sate khas Solo dari daging kambing cincang yang dibungkus lemak kambing lalu dibakar. Tekstur lembut dengan bumbu kacang yang kaya rempah.",
+    "harga_rata": "Rp 35.000 - 60.000",
+    "lokasi_terbaik": "Sate Buntel Pak Manto (Pasar Kliwon), Sate Kambing Hj. Bejo",
+    "rating": 4.7,
+    "foto": "assets/uploads/kuliner/tengkleng solo.jpeg",
+    "id": 2
+  },
+  {
+    "nama": "Timlo Solo",
+    "kategori": "Makanan Utama",
+    "waktu": "Sarapan",
+    "deskripsi": "Sup khas Solo dengan isian sosis Solo, ati ampela ayam, telur pindang, dan soun dalam kuah bening yang gurih. Sarapan paling mengenyangkan di Solo.",
+    "harga_rata": "Rp 20.000 - 35.000",
+    "lokasi_terbaik": "Timlo Solo Pak Djum (Kota), Timlo Maestro",
+    "rating": 4.6,
+    "foto": "assets/uploads/kuliner/tomlo solo.png",
+    "id": 3
+  },
+  {
+    "nama": "Serabi Notosuman",
+    "kategori": "Jajanan",
+    "waktu": "Sarapan",
+    "deskripsi": "Kue serabi tradisional Solo yang terkenal sejak 1923. Dibuat dari tepung beras dan santan, dimasak di wajan tanah liat. Tersedia rasa original dan coklat.",
+    "harga_rata": "Rp 3.000 - 5.000 per buah",
+    "lokasi_terbaik": "Serabi Notosuman (Jl. Moh. Yamin), Serabi Bu Winarsih",
+    "rating": 4.8,
+    "foto": "assets/uploads/kuliner/serabi notosuman.jpg",
+    "id": 4
+  },
+  {
+    "nama": "Wedang Ronde",
+    "kategori": "Minuman",
+    "waktu": "Malam",
+    "deskripsi": "Minuman tradisional Solo berupa bola-bola ketan isi kacang tanah dalam kuah jahe hangat. Sempurna untuk malam hari yang dingin.",
+    "harga_rata": "Rp 8.000 - 15.000",
+    "lokasi_terbaik": "Wedang Ronde Pak Atmo (Gladak), warung wedang malam Alun-alun",
+    "rating": 4.4,
+    "foto": "assets/uploads/kuliner/wedang ronde.jpeg",
+    "id": 8
+  }
+]

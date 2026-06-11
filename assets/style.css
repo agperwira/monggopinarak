@@ -355,3 +355,113 @@ details {
     box-shadow: var(--shadow-sm);
     margin-bottom: 1.5rem;
 }
+
+/* ── Custom Equal Height Card ── */
+.custom-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 420px;
+    transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.custom-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--gold);
+}
+
+.card-img-container {
+    height: 170px;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(135deg, #F5E6D0, #EDD5B0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-img-placeholder {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    gap: 4px;
+}
+
+.card-body {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-badge-val {
+    background: var(--gold);
+    color: #2C1810;
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 2px 12px;
+    border-radius: 20px;
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.card-title-val {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text) !important;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.4;
+    min-height: 2.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-desc-val {
+    font-size: 0.82rem;
+    color: var(--text-muted) !important;
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+    flex-grow: 1;
+    min-height: 3.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-divider-val {
+    margin: 0.5rem 0;
+    border: none;
+    border-top: 1px solid var(--border);
+}
+
+.card-meta-container {
+    margin-top: auto;
+}
+
+.card-meta-item {
+    font-size: 0.78rem;
+    color: var(--text-muted) !important;
+    line-height: 1.4;
+    margin-bottom: 2px;
+}

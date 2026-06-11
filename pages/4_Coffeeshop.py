@@ -8,6 +8,9 @@ from utils import load_css, page_header, load_data, render_card
 st.set_page_config(page_title="Coffeeshop Solo — Monggo Pinarak", page_icon="☕", layout="wide")
 load_css()
 
+st.sidebar.page_link("app.py", label="🏠 Kembali ke Beranda")
+st.sidebar.markdown("---")
+
 page_header("☕ Coffeeshop Solo", "Tempat ngopi terbaik di Kota Solo")
 
 data = load_data("coffeeshop.json")

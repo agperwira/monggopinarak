@@ -8,6 +8,9 @@ from utils import load_css, page_header, load_data, display_image
 st.set_page_config(page_title="Budaya Solo — Monggo Pinarak", page_icon="🎭", layout="wide")
 load_css()
 
+st.sidebar.page_link("app.py", label="🏠 Kembali ke Beranda")
+st.sidebar.markdown("---")
+
 page_header("🎭 Budaya Solo", "Warisan seni dan tradisi adiluhung Kota Solo")
 
 data = load_data("budaya.json")

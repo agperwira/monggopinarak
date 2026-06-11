@@ -35,6 +35,8 @@ if st.button("🚪 Logout"):
     st.session_state.admin_logged_in = False
     st.rerun()
 
+st.sidebar.page_link("app.py", label="🏠 Kembali ke Beranda")
+st.sidebar.markdown("---")
 menu = st.sidebar.radio("Kelola Konten", [
     "🗺️ Wisata",
     "🍽️ Kuliner",
@@ -148,7 +150,10 @@ with tab1:
             options = field[3]
             new_item[key] = st.selectbox(label, options, key=f"add_{key}")
         elif ftype == "number":
-            new_item[key] = st.number_input(label, key=f"add_{key}", step=0.1)
+            if key == "rating":
+                new_item[key] = st.number_input(label, min_value=1.0, max_value=5.0, value=5.0, step=0.1, key=f"add_{key}")
+            else:
+                new_item[key] = st.number_input(label, key=f"add_{key}", step=0.1)
         elif ftype == "bool":
             new_item[key] = st.checkbox(label, key=f"add_{key}")
 
@@ -214,7 +219,12 @@ with tab2:
                 idx_opt = options.index(current) if current in options else 0
                 edited[key] = st.selectbox(label, options, index=idx_opt, key=f"{prefix}_{key}")
             elif ftype == "number":
-                edited[key] = st.number_input(label, value=float(current) if current else 0.0, key=f"{prefix}_{key}", step=0.1)
+                val = float(current) if current else 0.0
+                if key == "rating":
+                    val = max(1.0, min(5.0, val))
+                    edited[key] = st.number_input(label, min_value=1.0, max_value=5.0, value=val, key=f"{prefix}_{key}", step=0.1)
+                else:
+                    edited[key] = st.number_input(label, value=val, key=f"{prefix}_{key}", step=0.1)
             elif ftype == "bool":
                 edited[key] = st.checkbox(label, value=bool(current), key=f"{prefix}_{key}")
 
@@ -253,7 +263,8 @@ with tab2:
                 st.success("✅ Perubahan berhasil disimpan!")
                 st.rerun()
         with col_del:
-            if st.button("🗑️ Hapus Item Ini", type="secondary"):
+            confirm = st.checkbox("Saya yakin ingin menghapus data ini", key=f"{prefix}_confirm_del")
+            if st.button("🗑️ Hapus Item Ini", type="secondary", disabled=not confirm):
                 nama_hapus = item.get("nama", "item ini")
                 data.pop(selected_idx)
                 save_data(cfg["file"], data)

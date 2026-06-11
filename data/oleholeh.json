@@ -1,63 +1,53 @@
 [
   {
-    "id": 1,
     "nama": "Batik Solo",
     "kategori": "Kerajinan",
     "deskripsi": "Oleh-oleh paling ikonik dari Solo. Pilihan dari batik cap, batik printing, hingga batik tulis premium. Motif klasik Keraton atau motif modern kontemporer.",
     "harga_rata": "Rp 50.000 - 5.000.000",
     "toko_rekomendasi": "Batik Keris, Batik Danarhadi, Pasar Klewer, Kampung Batik Laweyan",
-    "foto": "",
-    "tips": "Bedakan batik tulis (mahal, motif tidak simetris sempurna) vs batik cap (lebih terjangkau, motif lebih seragam)."
+    "tips": "Bedakan batik tulis (mahal, motif tidak simetris sempurna) vs batik cap (lebih terjangkau, motif lebih seragam).",
+    "foto": "assets/uploads/oleholeh/WhatsApp Image 2026-06-11 at 17.50.34.jpeg",
+    "id": 1
   },
   {
-    "id": 2,
     "nama": "Abon Sapi",
     "kategori": "Makanan",
     "deskripsi": "Abon daging sapi khas Solo dengan tekstur serat halus dan rasa gurih-manis yang khas. Tahan lama, cocok sebagai oleh-oleh.",
     "harga_rata": "Rp 30.000 - 80.000",
     "toko_rekomendasi": "Abon Solo Pak Yanto, Abon Varia, Toko Oleh-oleh Gendingan",
-    "foto": "",
-    "tips": "Pilih abon dengan kemasan vakum untuk ketahanan lebih lama."
+    "tips": "Pilih abon dengan kemasan vakum untuk ketahanan lebih lama.",
+    "foto": "assets/uploads/oleholeh/WhatsApp Image 2026-06-11 at 17.34.43 (2).jpeg",
+    "id": 2
   },
   {
-    "id": 3,
-    "nama": "Intip",
-    "kategori": "Makanan",
-    "deskripsi": "Kerak nasi berbentuk lingkaran yang digoreng hingga renyah. Camilan tradisional Solo yang gurih, tersedia dengan taburan gula merah atau rasa original.",
-    "harga_rata": "Rp 10.000 - 25.000",
-    "toko_rekomendasi": "Intip Cap Kunci, Pasar Gede, toko oleh-oleh Jl. Slamet Riyadi",
-    "foto": "",
-    "tips": "Beli yang masih segar untuk tekstur terbaik."
-  },
-  {
-    "id": 4,
     "nama": "Keris Solo",
     "kategori": "Kerajinan",
     "deskripsi": "Keris adalah warisan budaya UNESCO. Solo terkenal sebagai pusat pembuatan keris berkualitas. Dari keris fungsional hingga keris koleksi artistik.",
     "harga_rata": "Rp 200.000 - Jutaan rupiah",
     "toko_rekomendasi": "Pasar Triwindu, empu keris di Mojosongo",
-    "foto": "",
-    "tips": "Tanyakan sertifikat keaslian untuk keris antik bersejarah."
+    "tips": "Tanyakan sertifikat keaslian untuk keris antik bersejarah.",
+    "foto": "assets/uploads/oleholeh/WhatsApp Image 2026-06-11 at 17.34.43 (3).jpeg",
+    "id": 4
   },
   {
-    "id": 5,
     "nama": "Serabi Notosuman",
     "kategori": "Makanan",
     "deskripsi": "Serabi khas Solo yang terkenal sejak 1923. Dibungkus daun pisang, tahan 1-2 hari. Oleh-oleh wajib dari Solo.",
     "harga_rata": "Rp 3.000 - 5.000 per buah",
     "toko_rekomendasi": "Serabi Notosuman (Jl. Moh. Yamin No.41)",
-    "foto": "",
-    "tips": "Beli di hari keberangkatan agar tetap segar saat sampai tujuan."
+    "tips": "Beli di hari keberangkatan agar tetap segar saat sampai tujuan.",
+    "foto": "assets/uploads/oleholeh/WhatsApp Image 2026-06-11 at 18.39.59.jpeg",
+    "id": 5
   },
   {
-    "id": 6,
     "nama": "Wayang Kulit Miniatur",
     "kategori": "Kerajinan",
     "deskripsi": "Souvenir wayang kulit miniatur yang indah sebagai hiasan. Dibuat dari kulit sapi dengan tatahan (ukiran) tradisional. Tersedia berbagai karakter pewayangan.",
     "harga_rata": "Rp 50.000 - 500.000",
     "toko_rekomendasi": "Pasar Triwindu, toko souvenir Jl. Slamet Riyadi",
-    "foto": "",
-    "tips": "Karakter Semar dan Punakawan adalah yang paling populer."
+    "tips": "Karakter Semar dan Punakawan adalah yang paling populer.",
+    "foto": "assets/uploads/oleholeh/WhatsApp Image 2026-06-11 at 17.34.43 (1).jpeg",
+    "id": 6
   },
   {
     "nama": "Kerupuk Karak",
@@ -68,5 +58,15 @@
     "tips": "Pastikan pakai buble wrap biar aman agar tidak pecah",
     "foto": "assets/uploads/oleholeh/Gemini_Generated_Image_3rkohs3rkohs3rko.png",
     "id": 7
+  },
+  {
+    "nama": "ampyang",
+    "kategori": "Makanan",
+    "deskripsi": "Ampyang adalah camilan tradisional manis khas Jawa yang terbuat dari campuran kacang tanah dan lelehan gula merah (gula jawa) yang dimasak bersama jahe. Camilan ini memiliki cita rasa perpaduan manis dan gurih, dengan tekstur renyah dari kacang yang dilapisi karamel serta aroma jahe yang menghangatkan.",
+    "harga_rata": "10.000-18.000",
+    "toko_rekomendasi": "Pasar gede,pusat oleh oleh",
+    "tips": "Saat membeli ampyang, perhatikan kualitas gula yang digunakan—pastikan menggunakan gula aren atau gula merah murni yang tidak meninggalkan rasa pahit.",
+    "foto": "assets/uploads/oleholeh/WhatsApp Image 2026-06-11 at 17.44.09.jpeg",
+    "id": 8
   }
 ]

@@ -112,43 +112,39 @@ def gold_divider():
 
 def render_card(title: str, desc: str, img_path: str = "", badge: str = "",
                 meta: list = None):
-    """Card dengan gambar, badge, judul, deskripsi, dan metadata."""
-    with st.container(border=True):
-        # Gambar
-        full = resolve(img_path)
-        if full and full.is_file():
-            b64 = _img_to_b64(img_path)
-            st.markdown(
-                f"<div style='height:170px;overflow:hidden;border-radius:6px;"
-                f"margin:-1px -1px 10px;'>"
-                f"<img src='data:image/jpeg;base64,{b64}' "
-                f"style='width:100%;height:170px;object-fit:cover;display:block;'>"
-                f"</div>",
-                unsafe_allow_html=True
-            )
+    """Card dengan gambar, badge, judul, deskripsi, dan metadata (tinggi seragam)."""
+    full = resolve(img_path)
+    if full and full.is_file():
+        b64 = _img_to_b64(img_path)
+        img_html = f"<div class='card-img-container'><img src='data:image/jpeg;base64,{b64}'></div>"
+    else:
+        if img_path and (img_path.startswith("http://") or img_path.startswith("https://")):
+            img_html = f"<div class='card-img-container'><img src='{img_path}'></div>"
         else:
-            st.markdown(
-                "<div style='height:120px;background:linear-gradient(135deg,#F5E6D0,#EDD5B0);"
-                "border-radius:6px;display:flex;align-items:center;justify-content:center;"
-                "color:#A0826D;font-size:13px;margin:-1px -1px 10px;flex-direction:column;gap:4px;'>"
-                "<span style='font-size:1.8rem;'>🖼️</span><span>Belum ada foto</span></div>",
-                unsafe_allow_html=True
+            img_html = (
+                "<div class='card-img-container'>"
+                "<div class='card-img-placeholder'>"
+                "<span style='font-size:1.8rem;'>🖼️</span><span>Belum ada foto</span>"
+                "</div></div>"
             )
-        # Badge
-        if badge:
-            st.markdown(
-                f"<span style='background:#D4AF37;color:#2C1810;font-size:.68rem;"
-                f"font-weight:700;padding:2px 12px;border-radius:20px;"
-                f"display:inline-block;margin-bottom:6px;'>{badge}</span>",
-                unsafe_allow_html=True
-            )
-        st.markdown(f"**{title}**")
-        short = desc[:125] + "..." if len(desc) > 125 else desc
-        st.caption(short)
-        if meta:
-            st.markdown(
-                "<hr style='margin:8px 0 6px;border:none;border-top:1px solid #E8D5B0;'>",
-                unsafe_allow_html=True
-            )
-            for m in meta:
-                st.caption(m)
+
+    badge_html = f"<span class='card-badge-val'>{badge}</span>" if badge else ""
+    short = desc[:125] + "..." if len(desc) > 125 else desc
+
+    meta_html = ""
+    if meta:
+        meta_items = "".join([f"<div class='card-meta-item'>{m}</div>" for m in meta])
+        meta_html = f"<hr class='card-divider-val'><div class='card-meta-container'>{meta_items}</div>"
+
+    card_html = f"""
+    <div class="custom-card">
+        {img_html}
+        <div class="card-body">
+            {badge_html}
+            <h4 class="card-title-val">{title}</h4>
+            <p class="card-desc-val">{short}</p>
+            {meta_html}
+        </div>
+    </div>
+    """
+    st.markdown(card_html, unsafe_allow_html=True)

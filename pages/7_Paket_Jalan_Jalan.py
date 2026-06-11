@@ -8,15 +8,23 @@ from utils import load_css, page_header, load_data, display_image, gold_divider
 st.set_page_config(page_title="Paket Jalan-jalan — Monggo Pinarak", page_icon="🧳", layout="wide")
 load_css()
 
+st.sidebar.page_link("app.py", label="🏠 Kembali ke Beranda")
+st.sidebar.markdown("---")
+
 page_header("🧳 Paket Jalan-jalan Solo", "Itinerary lengkap untuk perjalanan tak terlupakan di Solo")
 
 data = load_data("paket.json")
 
-durasi_list = ["Semua"] + sorted(list(set(d["durasi"] for d in data)))
-selected_durasi = st.selectbox("Pilih Durasi", durasi_list)
-filtered = data if selected_durasi == "Semua" else [d for d in data if d["durasi"] == selected_durasi]
+durasi_list = ["-- Pilih Durasi Perjalanan --"] + sorted(list(set(d["durasi"] for d in data)))
+selected_durasi = st.selectbox("Pilih Durasi Perjalanan:", durasi_list)
 
 gold_divider()
+
+if selected_durasi == "-- Pilih Durasi Perjalanan --":
+    st.info("💡 Silakan pilih durasi perjalanan Anda di atas untuk menampilkan rekomendasi paket itinerary lengkap.")
+    st.stop()
+
+filtered = [d for d in data if d["durasi"] == selected_durasi]
 
 for item in filtered:
     # Header paket
